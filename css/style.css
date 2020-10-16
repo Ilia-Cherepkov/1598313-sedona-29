@@ -64,10 +64,16 @@ img {
 
 .description {
   text-align: center;
+
 }
 
 .description b {
   font-size: 21px;
+  color: var(--basic-extra-black);
+}
+
+.description-paragraph {
+  color: var(--basic-black);
 }
 
 .description-list {
@@ -76,15 +82,24 @@ img {
 
 .description-item {
   text-align: center;
+  color: var(--basic-black);
 }
 
 .description-item h3 {
   font-size: 21px;
   line-height: 21px;
+  color: var(--basic-extra-black);
+}
+
+.description-special-item {
+  background-color: var(--basic-blue);
+  color: var(--basic-extra-white);
 }
 
 .recommendation-list {
   list-style: none;
+  background-color: var(--basic-white);
+  color: var(--basic-black);
 }
 
 .recommendation-item {
@@ -98,11 +113,13 @@ img {
 
 .booking {
   text-align: center;
+  color: var(--basic-black);
 }
 
 .booking b {
   font-size: 30px;
   line-height: 24px;
+  color: var(--basic-extra-black);
 }
 
 /*Main footer*/
@@ -116,9 +133,10 @@ img {
 
 .footer-address {
   font-size: 21px;
-  line-height: 21px;
+  line-height: 26px;
   color: var(--basic-extra-black);
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .footer-phone {
@@ -141,6 +159,9 @@ img {
 }
 
 .footer-copyright {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
   color: var(--basic-extra-black);
   background-color: var(--basic-extra-white);
 }
