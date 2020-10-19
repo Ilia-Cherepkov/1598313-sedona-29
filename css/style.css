@@ -8,8 +8,9 @@
   --basic-extra-blue: #81B3D3;
   --basic-white: #EEEEEE;
   --basic-extra-white: #FFFFFF;
+  --basic-beige: #F2F2F2;
 
-  --special: #766458;
+  --special: #766357;
 }
 
 /* Global */
@@ -44,14 +45,17 @@ img {
   color: var(--basic-extra-dark);
   background-color: var(--basic-extra-white);
 }
+/* Site navigation*/
 
 .site-navigation {
   list-style: none;
 }
 
-/* Site navigation*/
+.site-navigation-current {
+  color: var(--special);
+}
 
-.site-navigation a {
+.site-navigation-link {
   color: var(--basic-extra-dark)
 }
 
@@ -120,6 +124,68 @@ img {
   font-size: 30px;
   line-height: 24px;
   color: var(--basic-extra-black);
+}
+
+/*Hotel-page*/
+
+/*hotel-page breadcrumbs*/
+.breadcrumbs {
+  list-style: none;
+  text-align: left;
+  font-size: 12px;
+  line-height: 18px;
+}
+.breadcrumbs a {
+  color: var(--basic-extra-black);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--basic-blue);
+}
+
+.breadcrumbs-current a {
+  color: var(--basic-blue);
+  text-decoration: none;
+}
+/*hotel-page hotel-list*/
+.hotel-list {
+  list-style: none;
+  text-align: left;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--basic-black);
+}
+ .hotel-link {
+   font-size: 21px;
+   line-height: 26px;
+   color: var(--basic-extra-black);
+ }
+
+ .housing-description {
+   font-size: 14px;
+   line-height: 21px;
+   color: var(--basic-black);
+ }
+
+ .rating {
+   font-size: 14px;
+   line-height: 21px;
+   color: var(--basic-dark);
+ }
+
+.list-button {
+  font-size:14px;
+  line-height: 21px;
+  text-align: center;
+  color: var(--basic-extra-white);
+  vertical-align: middle;
+  background-color: var(--basic-blue);
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.booking-button {
+  background-color: var(--special);
 }
 
 /*Main footer*/
