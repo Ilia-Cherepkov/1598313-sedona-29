@@ -2,7 +2,7 @@
 
 :root {
   --basic-black: #333333;
-  --basic-extra-dark: #000000;
+  --basic-extra-black: #000000;
   --basic-dark: #666666;
   --basic-blue: #81B3D2;
   --basic-extra-blue: #81B3D3;
@@ -19,7 +19,7 @@ body {
   min-width: 1200px;
   margin: 0;
   padding: 0;
-  font-family: "PT Sans", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 700;
@@ -130,19 +130,30 @@ img {
 
 /*hotel-page breadcrumbs*/
 .breadcrumbs {
-  list-style: none;
-  text-align: left;
   font-size: 12px;
   line-height: 18px;
+  font-weight: 400;
 }
-.breadcrumbs a {
+
+.breadcrumbs-list {
+  list-style: none;
+  text-align: left;
+}
+
+.breadcrumbs-link {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
   color: var(--basic-extra-black);
   text-decoration: underline;
   text-decoration-style: dotted;
   text-decoration-color: var(--basic-blue);
 }
 
-.breadcrumbs-current a {
+.breadcrumbs-link-current {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
   color: var(--basic-blue);
   text-decoration: none;
 }
@@ -160,21 +171,34 @@ img {
    color: var(--basic-extra-black);
  }
 
+ .hotel-name {
+   font-size: 21px;
+   line-height: 26px;
+   font-weight: 700;
+   color: var(--basic-extra-black);
+ }
+
  .housing-description {
    font-size: 14px;
    line-height: 21px;
+   font-weight: 400;
    color: var(--basic-black);
  }
 
  .rating {
    font-size: 14px;
    line-height: 21px;
+   font-weight: 400;
+   background-color: var(--basic-beige);
    color: var(--basic-dark);
  }
 
 .list-button {
-  font-size:14px;
+  font-size: 14px;
   line-height: 21px;
+  font-weight: 700;
+  font-family: "PT Sans", "Arial", sans-serif;
+  text-transform: uppercase;
   text-align: center;
   color: var(--basic-extra-white);
   vertical-align: middle;
