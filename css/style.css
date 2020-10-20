@@ -128,19 +128,19 @@ img {
 
 /*Hotel-page*/
 
-/*hotel-page breadcrumbs*/
-.breadcrumbs {
+/*hotel-page sorting*/
+.sorting {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
 }
 
-.breadcrumbs-list {
+.sorting-list {
   list-style: none;
   text-align: left;
 }
 
-.breadcrumbs-link {
+.sorting-link {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
@@ -150,7 +150,7 @@ img {
   text-decoration-color: var(--basic-blue);
 }
 
-.breadcrumbs-link-current {
+.sorting-link-current {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
