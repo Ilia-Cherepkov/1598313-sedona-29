@@ -89,10 +89,16 @@ img {
   color: var(--basic-black);
 }
 
-.description-item h3 {
+.description-item-heading {
   font-size: 21px;
   line-height: 21px;
   color: var(--basic-extra-black);
+}
+
+.description-item-special-heading {
+  font-size: 21px;
+  line-height: 21px;
+  color: var(--basic-extra-white);
 }
 
 .description-special-item {
@@ -246,6 +252,18 @@ img {
 
 .footer-social h2 {
   font-size: 21px;
+}
+
+.social-link-twitter {
+  background-color: var(--basic-blue);
+}
+
+.social-link-facebook {
+  background-color: var(--basic-blue);
+}
+
+.social-link-youtube {
+  background-color: var(--basic-blue);
 }
 
 .footer-copyright {
