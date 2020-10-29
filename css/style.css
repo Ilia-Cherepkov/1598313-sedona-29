@@ -254,18 +254,6 @@ img {
   font-size: 21px;
 }
 
-.social-link-twitter {
-  background-color: var(--basic-blue);
-}
-
-.social-link-facebook {
-  background-color: var(--basic-blue);
-}
-
-.social-link-youtube {
-  background-color: var(--basic-blue);
-}
-
 .footer-copyright {
   font-size: 14px;
   line-height: 26px;
